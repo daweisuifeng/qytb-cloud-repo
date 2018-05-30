@@ -1,6 +1,6 @@
 keycloak:
   public-client: true
-  auth-server-url: http://localhost:8080/auth
+  auth-server-url: http://hadoop1:8080/auth
   realm: realm
   resource: zuul-server
   # ssl-required: external
